@@ -1,0 +1,12 @@
+{
+  "name": "render-node-red",
+  "version": "1.0.0",
+  "description": "Node-RED on Render Free Tier",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-red --port $PORT --userDir ./data"
+  },
+  "dependencies": {
+    "node-red": "^3.1.0"
+  }
+}
